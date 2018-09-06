@@ -1,5 +1,5 @@
 {
-  "url": "https://casa.mxapps.io",
+  "url": "http://localhost:8085/",
   "enableOffline": false,
   "requirePin": false,
   "updateAsync": false,
