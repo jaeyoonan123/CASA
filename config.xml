@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "io.mxapps.casacentral"
+        id        = "io.mxapps.casalocation"
         version   = "0.0.4" >
 
-    <name>CASA</name>
+    <name>CASA LOCATION</name>
 
     <description></description>
 
@@ -54,34 +54,12 @@
     <plugin name="cordova-sqlite-storage-pgb" source="git" spec="https://github.com/mendix/Cordova-sqlite-storage-pgb.git#storage-master" />
     <plugin name="uk.co.workingedge.phonegap.plugin.launchnavigator" source="npm" version="2.9.11"/>
 
-        <plugin name="cordova-plugin-calendar" source="npm" spec="4.5.5">
-            <param name="CALENDAR_USAGE_DESCRIPTION" value="This app needs to access your calendar" />
-        </plugin>
 
-            <plugin name="cordova-plugin-camera" source="npm" spec="2.4.0">
-                <param name="CAMERA_USAGE_DESCRIPTION" value="This app needs to access your camera" />
-                <param name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="This app needs to access your photo library" />
-            </plugin>
 
-        <plugin name="cordova-plugin-contacts" source="npm" spec="2.3.0">
-            <param name="CONTACTS_USAGE_DESCRIPTION" value="This app needs to access your contacts" />
-        </plugin>
 
-                <plugin name="cordova-plugin-media-capture" source="npm" spec="1.4.2">
-                    <param name="CAMERA_USAGE_DESCRIPTION" value="This app needs to access your camera" />
-                    <param name="MICROPHONE_USAGE_DESCRIPTION" value="This app needs to access your microphone" />
-                    <param name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="This app needs to access your photo library" />
-                </plugin>
 
-        <plugin name="phonegap-plugin-barcodescanner" source="npm" spec="8.0.0" >
-            <param name="CAMERA_USAGE_DESCRIPTION" value="This app needs to access your camera" />
-        </plugin>
 
-        <plugin name="cordova-plugin-geolocation" source="npm" spec="2.2.0">
-            <param name="GEOLOCATION_USAGE_DESCRIPTION" value="This app needs to access your location" />
-        </plugin>
 
-        <plugin name="cordova-plugin-media" source="npm" spec="2.3.0" />
 
         <plugin name="phonegap-plugin-push" source="npm" spec="1.5.3" />
 
@@ -100,41 +78,41 @@
 
         <platform name="android">
                 <!-- Icon definitions - for more details: http://developer.android.com/guide/topics/resources/providing-resources.html -->
-                    <splash src="res/android/screen-xxxhdpi-landscape.png" density="land-xxxhdpi"/>
-                <!-- Icon definitions - for more details: http://developer.android.com/guide/topics/resources/providing-resources.html -->
-                    <splash src="res/android/screen-hdpi-landscape.png" density="land-hdpi"/>
-                <!-- Icon definitions - for more details: http://developer.android.com/guide/topics/resources/providing-resources.html -->
-                    <splash src="res/android/screen-ldpi-portrait.png" density="port-ldpi"/>
-                <!-- Icon definitions - for more details: http://developer.android.com/guide/topics/resources/providing-resources.html -->
-                    <splash src="res/android/screen-mdpi-landscape.png" density="land-mdpi"/>
-                <!-- Icon definitions - for more details: http://developer.android.com/guide/topics/resources/providing-resources.html -->
-                    <splash src="res/android/screen-xhdpi-landscape.png" density="land-xhdpi"/>
-                <!-- Icon definitions - for more details: http://developer.android.com/guide/topics/resources/providing-resources.html -->
-                    <icon src="res/android/icon-48-mdpi.png" density="mdpi"/>
-                <!-- Icon definitions - for more details: http://developer.android.com/guide/topics/resources/providing-resources.html -->
-                    <icon src="res/android/icon-192-xxxhdpi.png" density="xxxhdpi"/>
-                <!-- Icon definitions - for more details: http://developer.android.com/guide/topics/resources/providing-resources.html -->
-                    <splash src="res/android/screen-xxhdpi-landscape.png" density="land-xxhdpi"/>
-                <!-- Icon definitions - for more details: http://developer.android.com/guide/topics/resources/providing-resources.html -->
-                    <splash src="res/android/screen-xhdpi-portrait.png" density="port-xhdpi"/>
-                <!-- Icon definitions - for more details: http://developer.android.com/guide/topics/resources/providing-resources.html -->
-                    <splash src="res/android/screen-xxxhdpi-portrait.png" density="port-xxxhdpi"/>
+                    <icon src="res/android/icon-36-ldpi.png" density="ldpi"/>
                 <!-- Icon definitions - for more details: http://developer.android.com/guide/topics/resources/providing-resources.html -->
                     <splash src="res/android/screen-xxhdpi-portrait.png" density="port-xxhdpi"/>
                 <!-- Icon definitions - for more details: http://developer.android.com/guide/topics/resources/providing-resources.html -->
-                    <splash src="res/android/screen-mdpi-portrait.png" density="port-mdpi"/>
-                <!-- Icon definitions - for more details: http://developer.android.com/guide/topics/resources/providing-resources.html -->
-                    <icon src="res/android/icon-36-ldpi.png" density="ldpi"/>
-                <!-- Icon definitions - for more details: http://developer.android.com/guide/topics/resources/providing-resources.html -->
-                    <splash src="res/android/screen-ldpi-landscape.png" density="land-ldpi"/>
-                <!-- Icon definitions - for more details: http://developer.android.com/guide/topics/resources/providing-resources.html -->
-                    <icon src="res/android/icon-72-hdpi.png" density="hdpi"/>
-                <!-- Icon definitions - for more details: http://developer.android.com/guide/topics/resources/providing-resources.html -->
-                    <icon src="res/android/icon-144-xxhdpi.png" density="xxhdpi"/>
+                    <icon src="res/android/icon-48-mdpi.png" density="mdpi"/>
                 <!-- Icon definitions - for more details: http://developer.android.com/guide/topics/resources/providing-resources.html -->
                     <icon src="res/android/icon-96-xhdpi.png" density="xhdpi"/>
                 <!-- Icon definitions - for more details: http://developer.android.com/guide/topics/resources/providing-resources.html -->
+                    <icon src="res/android/icon-144-xxhdpi.png" density="xxhdpi"/>
+                <!-- Icon definitions - for more details: http://developer.android.com/guide/topics/resources/providing-resources.html -->
+                    <splash src="res/android/screen-mdpi-landscape.png" density="land-mdpi"/>
+                <!-- Icon definitions - for more details: http://developer.android.com/guide/topics/resources/providing-resources.html -->
+                    <splash src="res/android/screen-xxhdpi-landscape.png" density="land-xxhdpi"/>
+                <!-- Icon definitions - for more details: http://developer.android.com/guide/topics/resources/providing-resources.html -->
+                    <splash src="res/android/screen-xhdpi-landscape.png" density="land-xhdpi"/>
+                <!-- Icon definitions - for more details: http://developer.android.com/guide/topics/resources/providing-resources.html -->
+                    <splash src="res/android/screen-ldpi-portrait.png" density="port-ldpi"/>
+                <!-- Icon definitions - for more details: http://developer.android.com/guide/topics/resources/providing-resources.html -->
+                    <icon src="res/android/icon-192-xxxhdpi.png" density="xxxhdpi"/>
+                <!-- Icon definitions - for more details: http://developer.android.com/guide/topics/resources/providing-resources.html -->
+                    <splash src="res/android/screen-mdpi-portrait.png" density="port-mdpi"/>
+                <!-- Icon definitions - for more details: http://developer.android.com/guide/topics/resources/providing-resources.html -->
+                    <splash src="res/android/screen-xxxhdpi-portrait.png" density="port-xxxhdpi"/>
+                <!-- Icon definitions - for more details: http://developer.android.com/guide/topics/resources/providing-resources.html -->
                     <splash src="res/android/screen-hdpi-portrait.png" density="port-hdpi"/>
+                <!-- Icon definitions - for more details: http://developer.android.com/guide/topics/resources/providing-resources.html -->
+                    <splash src="res/android/screen-hdpi-landscape.png" density="land-hdpi"/>
+                <!-- Icon definitions - for more details: http://developer.android.com/guide/topics/resources/providing-resources.html -->
+                    <splash src="res/android/screen-xxxhdpi-landscape.png" density="land-xxxhdpi"/>
+                <!-- Icon definitions - for more details: http://developer.android.com/guide/topics/resources/providing-resources.html -->
+                    <splash src="res/android/screen-ldpi-landscape.png" density="land-ldpi"/>
+                <!-- Icon definitions - for more details: http://developer.android.com/guide/topics/resources/providing-resources.html -->
+                    <splash src="res/android/screen-xhdpi-portrait.png" density="port-xhdpi"/>
+                <!-- Icon definitions - for more details: http://developer.android.com/guide/topics/resources/providing-resources.html -->
+                    <icon src="res/android/icon-72-hdpi.png" density="hdpi"/>
         </platform>
 
     <splash src="res/android/screen-xxxhdpi-portrait.png" />
